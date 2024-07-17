@@ -23,7 +23,7 @@ To install execute
 
 This will install the nvim configurations in `~/.config/nvim` directory.
 
-To get familiar and understand keybindings you can watch [video](https://youtu.be/6pAG3BHurdM).
+To get familiar and understand keybindings you can watch this [video](https://youtu.be/6pAG3BHurdM).
 
 ## Tmux config
 
@@ -36,6 +36,7 @@ To install execute
 `stow tmux`
 
 This will install the tmux configurations in `~/.config/tmux` directory.
+
 for understanding tmux keybindings you watch this [video](https://youtu.be/U-omALWIBos).
 
 
