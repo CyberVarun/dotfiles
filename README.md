@@ -152,3 +152,12 @@ stow alacritty1
 ```
 
 ![Alacritty1 preview](./src/alacritty1_preview.png)
+
+### Alacritty2
+
+To install execute.
+```
+stow alacritty2
+```
+
+![Alacritty1 preview](./src/alacritty2_preview.png)
