@@ -1,0 +1,28 @@
+import = [
+    "~/.config/alacritty/themes/themes/smoooooth.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[shell]
+program = "/bin/tmux"
+
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+opacity = 0.9
+blur = true
+
+option_as_alt = "Both"
+
+[window.dimensions]
+columns = 122
+lines = 32
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+size = 12
