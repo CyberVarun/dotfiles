@@ -2,7 +2,7 @@
 CyberVarun config/dot files
 
 ## ⚠️ Important
-Installing config files with `stow` will create symlinks of files and directory of cloned repository so if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simple copy paste the files & directory manually. 
+Installing config files with `stow` will create symlinks of files and directory of cloned repository. So if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simple copy paste the files & directory manually. 
 
 ## Requirement
 
