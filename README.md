@@ -141,7 +141,7 @@ Requirements
   - [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
   - Any terminal with `xterm-256color` support.
 
-⚠️ The following alacritty configurations are created for fedora (alacritty1) & endeavour OS (alacritty2). It can work on other distros but might not work properly.
+⚠️ The following alacritty configurations are created for fedora (alacritty1) & endeavour OS (alacritty2). It might not work properly on other distros with the given configurations.
 
 
 ### Alacritty1
