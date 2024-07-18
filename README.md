@@ -1,5 +1,5 @@
 # dotfiles
-CyberVarun config files
+CyberVarun config/dot files
 
 ## Requirement
 
