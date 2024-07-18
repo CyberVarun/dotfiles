@@ -104,3 +104,15 @@ stow zsh2
 ```
 
 ![ZSH2 Preview](./src/zsh2_preview.png "ZSH2 Preview")
+
+## Endeavour OS i3
+
+i3 wm configuration for endeavour os
+
+To install execute.
+
+```
+stow i3
+```
+
+![Endeavour OS i3](./src/i3_preview.png "Endeavour OS i3 preview")
