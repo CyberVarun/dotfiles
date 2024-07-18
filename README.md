@@ -35,7 +35,13 @@ To install execute
 
 `stow tmux`
 
-This will install the tmux configurations in `~/.config/tmux` & in user home directory `~/.tmux.conf`. If you are using arch based distro you can remove `rm ~/.tmux.conf` or else remove `rm -f ~/.config/tmux` for other distros like ubuntu & fedora etc. So there will be no conflict of file duplicate files
+This will install the tmux configurations in `~/.config/tmux` & in user home directory `~/.tmux.conf`. If you are using arch based distro you can remove `rm ~/.tmux.conf` or else remove `rm -f ~/.config/tmux` for other distros like ubuntu & fedora etc. So there will be no conflict of file duplicate files.
+
+After this open tmux by following command.
+
+`tmux`
+
+Then install the themes and plugins by pressing `[CTRL + a] + I`. 
 
 for understanding tmux keybindings you watch this [video](https://youtu.be/U-omALWIBos).
 
