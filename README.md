@@ -50,7 +50,7 @@ Then install the themes and plugins by pressing `[CTRL + a] + I`.
 
 for understanding tmux keybindings you watch this [video](https://youtu.be/U-omALWIBos).
 
-## ZSH1 config
+## ZSH config
 
 ⚠️ This zsh configuration is created on fedora. It can work on other distros but don't forget to change the aliases according to you distros.
 
@@ -63,8 +63,18 @@ Requirements
 - bat
 - [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
 
+### ZSH1
+
 To install execute.
 
 `stow zsh1`
 
 ![ZSH1 Preview](./src/zsh1_preview.png "ZSH1 Preview")
+
+### ZSH2
+
+To install execute
+
+`stow zsh2`
+
+![ZSH2 Preview](./src/zsh2_preview.png "ZSH2 Preview")
