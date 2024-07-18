@@ -8,19 +8,19 @@ Installing config files with `stow` will create symlinks of files and directory 
 
 ## Requirement
 
-Debian, Ubuntu etc.
+Debian, Ubuntu based etc.
 
 ```
 sudo apt install stow -y
 ```
 
-Fedora, RedHat etc.
+Fedora, RedHat based etc.
 
 ```
 sudo dnf install stow -y
 ```
 
-Arch, Manjaro etc.
+Arch, Manjaro based etc.
 
 ```
 sudo pacman -S stow -y
@@ -105,7 +105,7 @@ stow zsh2
 
 ![ZSH2 Preview](./src/zsh2_preview.png "ZSH2 Preview")
 
-## Endeavour OS i3
+## Endeavour OS i3 WM
 
 i3 wm configuration for endeavour os
 
