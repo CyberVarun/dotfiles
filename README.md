@@ -88,7 +88,7 @@ To install execute.
 stow zsh1
 ```
 
-![ZSH1 Preview](./src/zsh1_preview.png "ZSH1 Preview")
+![ZSH1 Preview](./src/zsh1_preview.png)
 
 ### ZSH2
 Install `pfetch` using `yay` or `paru` to show system information at start of the shell/terminal. To turn off this comment the last line `.zshrc`.
@@ -103,7 +103,7 @@ To install execute.
 stow zsh2
 ```
 
-![ZSH2 Preview](./src/zsh2_preview.png "ZSH2 Preview")
+![ZSH2 Preview](./src/zsh2_preview.png)
 
 ## Endeavour OS i3 WM
 
@@ -115,4 +115,40 @@ To install execute.
 stow i3
 ```
 
-![Endeavour OS i3](./src/i3_preview.png "Endeavour OS i3 preview")
+![Endeavour OS i3](./src/i3_preview.png)
+
+## Alacritty
+
+Debian, Ubuntu based etc.
+
+```
+sudo apt install alacritty -y
+```
+
+Fedora, RedHat based etc.
+
+```
+sudo dnf install alacritty -y
+```
+
+Arch, Manjaro based etc.
+
+```
+sudo pacman -S alacritty -y
+```
+
+Requirements
+  - [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
+  - Any terminal with `xterm-256color` support.
+
+⚠️ The following alacritty configurations are created for fedora (alacritty1) & endeavour OS (alacritty2). It can work on other distros but might not work properly.
+
+
+### Alacritty1
+
+To install execute.
+```
+stow alacritty1
+```
+
+![Alacritty1 preview](./src/alacritty1_preview.png)
