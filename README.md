@@ -48,4 +48,20 @@ Then install the themes and plugins by pressing `[CTRL + a] + I`.
 
 for understanding tmux keybindings you watch this [video](https://youtu.be/U-omALWIBos).
 
+## ZSH1 config
+
+⚠️ This zsh configuration is created on fedora. It can work on other distros but don't forget to change the aliases according to you distros.
+
+Requirements
+  - powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k && echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
+  - fzf
+  - zoxide
+  - eza
+  - bat
+
+To install execute.
+
+`stow zsh1`
+
+
 
