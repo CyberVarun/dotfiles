@@ -52,8 +52,6 @@ for understanding tmux keybindings you watch this [video](https://youtu.be/U-omA
 
 ## ZSH config
 
-⚠️ This zsh configuration is created on fedora. It can work on other distros but don't forget to change the aliases according to you distros.
-
 Requirements
 
 - powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k && echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
@@ -62,6 +60,8 @@ Requirements
 - eza
 - bat
 - [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
+
+⚠️ The following zsh configurations are created for fedora (zsh1) & endeavour OS (zsh2). It can work on other distros but don't forget to change the aliases according to you distros.
 
 ### ZSH1
 
@@ -73,7 +73,7 @@ To install execute.
 
 ### ZSH2
 
-To install execute
+To install execute.
 
 `stow zsh2`
 
