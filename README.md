@@ -1,8 +1,10 @@
 # dotfiles
+
 CyberVarun config/dot files
 
 ## ⚠️ Important
-Installing config files with `stow` will create symlinks of files and directory of cloned repository. So if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simple copy paste the files & directory manually. 
+
+Installing config files with `stow` will create symlinks of files and directory of cloned repository. So if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simple copy paste the files & directory manually.
 
 ## Requirement
 
@@ -32,7 +34,7 @@ To get familiar and understand keybindings you can watch this [video](https://yo
 
 Before installation you should install `tpm` using following command.
 
-`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm` 
+`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
 To install execute
 
@@ -44,7 +46,7 @@ After this open tmux by following command.
 
 `tmux`
 
-Then install the themes and plugins by pressing `[CTRL + a] + I`. 
+Then install the themes and plugins by pressing `[CTRL + a] + I`.
 
 for understanding tmux keybindings you watch this [video](https://youtu.be/U-omALWIBos).
 
@@ -53,15 +55,16 @@ for understanding tmux keybindings you watch this [video](https://youtu.be/U-omA
 ⚠️ This zsh configuration is created on fedora. It can work on other distros but don't forget to change the aliases according to you distros.
 
 Requirements
-  - powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k && echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
-  - fzf
-  - zoxide
-  - eza
-  - bat
+
+- powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k && echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
+- fzf
+- zoxide
+- eza
+- bat
+- [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
 
 To install execute.
 
 `stow zsh1`
 
-
-
+![ZSH1 Preview](./src/zsh1_preview.png "ZSH1 Preview")
