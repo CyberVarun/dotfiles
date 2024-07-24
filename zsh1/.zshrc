@@ -53,9 +53,6 @@ alias lls="eza -lhg"
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
 
-# System alias
-alias cat="bat"
-
 # History setup
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
