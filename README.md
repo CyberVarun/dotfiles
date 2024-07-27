@@ -68,10 +68,7 @@ for understanding tmux keybindings you watch this [video](https://youtu.be/U-omA
 
 Requirements
 
-- powerlevel10k
-  ```
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k && echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-  ```
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - fzf
 - zoxide
 - eza
