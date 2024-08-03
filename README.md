@@ -140,6 +140,18 @@ Requirements
 
 ⚠️ The following alacritty configurations are created for fedora (alacritty1) & endeavour OS (alacritty2). It might not work properly on other distros with the given configurations.
 
+Install themes
+
+```
+cd ~/.config/alacritty
+git clone https://github.com/alacritty/alacritty-theme themes
+```
+
+Custom theme - coolnight theme (default) - (optional) 
+
+```
+curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/.config/alacritty/themes/themes/coolnight.toml --output ~/.config/alacritty/themes/themes/coolnight.toml
+```
 
 ### Alacritty1
 
