@@ -50,9 +50,6 @@ alias archlinux="sudo docker exec -it -u varun -w /home/varun archlinux fish"
 alias ls="eza --icons=always"
 alias lls="eza -lhg"
 
-# ---- Zoxide (better cd) ----
-eval "$(zoxide init zsh)"
-
 # History setup
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
