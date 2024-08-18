@@ -2,7 +2,11 @@
 
 CyberVarun config/dot files
 
-## ⚠️ Important
+# Take Backup before you install anything.
+
+If you don't want loose your previous configurations, then pls take backup of previous configurations.
+
+## ⚠️ Important 
 
 Installing config files with `stow` will create symlinks of files and directory of cloned repository. So if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simple copy paste the files & directory manually.
 
@@ -66,16 +70,20 @@ for understanding tmux keybindings you watch this [video](https://youtu.be/U-omA
 
 ## ZSH config
 
-Requirements
+Requirements 
 
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- zsh-autosuggestions
+- zsh-syntax-highlighting
 - fzf
 - zoxide
 - eza
 - bat
 - [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
 
-⚠️ The following zsh configurations are created for fedora (zsh1) & endeavour OS (zsh2). It can work on other distros but don't forget to change the aliases according to you distros.
+If you are on Ubuntu download the latest version from github repository of tools.
+
+⚠️ The following zsh configurations are created for fedora (zsh1) & endeavour OS (zsh2). It can work on other distros but don't forget to change the aliases according to you distros. 
 
 ### ZSH1
 
@@ -88,7 +96,9 @@ stow zsh1
 ![ZSH1 Preview](./src/zsh1_preview.png)
 
 ### ZSH2
-Install `pfetch` using `yay` or `paru` to show system information at start of the shell/terminal. To turn off this comment the last line `.zshrc`.
+Install `pfetch` using `yay` or `paru` to show system information at start of the shell/terminal. 
+
+To turn off this, comment the last line in `.zshrc`
 
 ```
 # pfetch
