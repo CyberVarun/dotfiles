@@ -13,10 +13,12 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
 
-# SYSTEM ALIASES
+# ALIASES
 alias update="sudo dnf update"
 alias myip="echo 'wlo1:- $(hostname -I | cut -f1 -d' ') \nwlan0:- $(hostname -I | cut -f2 -d' ') \ntun0:- $(hostname -I | cut -f3 -d' ')'"
 alias cat="bat"
+alias nts="cd ~/Dropbox/Note"
+alias blg="cd ~/Dropbox/Blogs"
 
 # SSH ALIAS
 alias ssha='eval $(ssh-agent) && ssh-add'
@@ -26,6 +28,7 @@ export PATH=$PATH:/opt/metasploit-framework/bin
 export PATH=$PATH:~/.npm-global/bin
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/.local/bin/
+export PATH=$PATH:/opt/RetDec-v5.0/bin
 
 # DOCKER CONTAINERS
 
@@ -52,8 +55,8 @@ alias lls="eza -lhg"
 
 # History setup
 HISTFILE=$HOME/.zhistory
-SAVEHIST=1000
-HISTSIZE=999
+SAVEHIST=10000
+HISTSIZE=10000
 setopt share_history
 setopt hist_expire_dups_first
 setopt hist_ignore_dups
@@ -70,6 +73,13 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 blue='\033[1;34m'
 grn='\033[1;92m'
 white='\033[1;97m'
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+
+eval "$(pyenv virtualenv-init -)"
 
 # echo -e "
 # 		$blue┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$grn━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
