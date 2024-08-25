@@ -42,6 +42,8 @@ This will install the nvim configurations in `~/.config/nvim` directory.
 
 To get familiar and understand keybindings you can watch this [video](https://youtu.be/6pAG3BHurdM).
 
+![ZSH1 Preview](./src/nvim_preview.png)
+
 ## Tmux config
 
 Before installation you should install `tpm` using following command.
