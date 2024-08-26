@@ -24,11 +24,7 @@ alias blg="cd ~/Dropbox/Blogs"
 alias ssha='eval $(ssh-agent) && ssh-add'
 
 # EXPORTS
-export PATH=$PATH:/opt/metasploit-framework/bin
-export PATH=$PATH:~/.npm-global/bin
-export PATH=$PATH:~/bin
-export PATH=$PATH:~/.local/bin/
-export PATH=$PATH:/opt/RetDec-v5.0/bin
+export PATH=$PATH:/opt/metasploit-framework/bin:~/.local/bin:/opt/RetDec-v5.0/bin
 
 # DOCKER CONTAINERS
 
@@ -73,13 +69,6 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 blue='\033[1;34m'
 grn='\033[1;92m'
 white='\033[1;97m'
-
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-
-eval "$(pyenv virtualenv-init -)"
 
 # echo -e "
 # 		$blue┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$grn━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
