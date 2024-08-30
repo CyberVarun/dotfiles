@@ -20,6 +20,7 @@ config.enable_tab_bar = false
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.7
+-- config.enable_wayland = false   -- Uncomment for WezTerm support on Hyprland.
 
 config.keys = {
 	{
