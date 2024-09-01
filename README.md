@@ -72,7 +72,7 @@ for understanding tmux keybindings you watch this [video](https://youtu.be/U-omA
 
 ## ZSH config
 
-Requirements 
+Requirements. 
 
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - zsh-autosuggestions
@@ -113,6 +113,41 @@ stow zsh2
 ```
 
 ![ZSH2 Preview](./src/zsh2_preview.png)
+
+## Fedora Hyprland
+
+Hyprland configuration for fedora.
+
+Requirements.
+
+- Hyprland 
+- Hyprpaper
+- Hyprlock
+- Waybar
+- wofi
+- wlogout
+- WezTerm
+- [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
+
+To install execute.
+
+```
+stow hypr wofi waybar
+```
+
+### Preview of Hyprland
+
+#### Hyprland
+![Hyprland Preview](./src/hyprland.png)
+![Hyprland Preview](./src/hyprland_preview_1.png)
+![Hyprland Preview](./src/hyprland_preview_2.png)
+
+#### Wofi
+![Wofi Preview](./src/wofi_preview_1.png)
+![Wofi Preview](./src/wofi_preview_2.png)
+
+#### Wlogout
+![Wlogout Preview](./src/wlogout.png)
 
 ## Endeavour OS i3 WM
 
