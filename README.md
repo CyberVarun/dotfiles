@@ -124,15 +124,15 @@ Requirements.
 - Hyprpaper
 - Hyprlock
 - Waybar
-- wofi
-- wlogout
+- Wofi
+- Wlogout
 - WezTerm
 - [Meslo nerd font](https://www.nerdfonts.com/font-downloads)
 
 To install execute.
 
 ```
-stow hypr wofi waybar
+stow hypr wofi waybar wlogout
 ```
 
 ### Preview of Hyprland
