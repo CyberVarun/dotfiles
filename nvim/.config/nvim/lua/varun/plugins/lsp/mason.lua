@@ -29,7 +29,6 @@ return {
 			ensure_installed = {
 				"html",
 				"cssls",
-				"tsserver",
 				"ansiblels",
 				"clangd",
 				"cmake",
