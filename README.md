@@ -149,6 +149,19 @@ stow hypr wofi waybar wlogout
 #### Wlogout
 ![Wlogout Preview](./src/wlogout.png)
 
+## [NEW] Fedora Hyprland with Hyprpanel
+
+Hyprland configuration for fedora with hyprpanel.
+
+Requirements.
+- [Hyprpanel](https://hyprpanel.com/)
+
+To install theme just export the theme in hyprpanel.
+
+### Preview of Hyprpanel
+
+![Hyprpanel Preview](./src/hyprpanel.png)
+
 ## Endeavour OS i3 WM
 
 i3 wm configuration for endeavour os
