@@ -156,6 +156,12 @@ Hyprland configuration for fedora with hyprpanel.
 Requirements.
 - [Hyprpanel](https://hyprpanel.com/)
 
+Bar Config
+
+```json
+{"0":{"left":["workspaces"],"middle":["clock"],"right":["volume","network","bluetooth","battery","systray","dashboard"]},"1":{"left":["workspaces"],"middle":["clock"],"right":["volume","dashboard"]},"2":{"left":["workspaces"],"middle":["clock"],"right":["volume","dashboard"]}}
+```
+
 To install theme just export the theme in hyprpanel.
 
 ### Preview of Hyprpanel
