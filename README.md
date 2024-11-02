@@ -160,7 +160,14 @@ To install theme just export the theme in hyprpanel.
 
 ### Preview of Hyprpanel
 
-![Hyprpanel Preview](./src/hyprpanel.png)
+![Hyprpanel Preview](./src/hyprpanel0.png)
+![Hyprpanel Preview](./src/hyprpanel1.png)
+![Hyprpanel Preview](./src/hyprpanel2.png)
+![Hyprpanel Preview](./src/hyprpanel3.png)
+![Hyprpanel Preview](./src/hyprpanel4.png)
+![Hyprpanel Preview](./src/hyprpanel5.png)
+![Hyprpanel Preview](./src/hyprpanel6.png)
+![Hyprpanel Preview](./src/hyprpanel7.png)
 
 ## Endeavour OS i3 WM
 
