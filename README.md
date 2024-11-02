@@ -173,7 +173,6 @@ To install theme just export the theme in hyprpanel.
 ![Hyprpanel Preview](./src/hyprpanel4.png)
 ![Hyprpanel Preview](./src/hyprpanel5.png)
 ![Hyprpanel Preview](./src/hyprpanel6.png)
-![Hyprpanel Preview](./src/hyprpanel7.png)
 
 ## Endeavour OS i3 WM
 
