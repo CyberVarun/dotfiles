@@ -1,0 +1,26 @@
+import = ["~/.config/alacritty/themes/themes/smoooooth.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[shell]
+program = "/bin/bash"
+
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+opacity = 0.9
+blur = true
+
+option_as_alt = "Both"
+
+[window.dimensions]
+columns = 115
+lines = 39
+
+[font]
+normal.family = "MartianMono Nerd Font Mono"
+size = 12

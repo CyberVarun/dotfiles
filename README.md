@@ -87,32 +87,15 @@ If you are on Ubuntu download the latest version from github repository of tools
 
 ⚠️ The following zsh configurations are created for fedora (zsh1) & endeavour OS (zsh2). It can work on other distros but don't forget to change the aliases according to you distros. 
 
-### ZSH1
+### ZSH
 
 To install execute.
 
 ```
-stow zsh1
+stow zsh
 ```
 
 ![ZSH1 Preview](./src/zsh1_preview.png)
-
-### ZSH2
-Install `pfetch` using `yay` or `paru` to show system information at start of the shell/terminal. 
-
-To turn off this, comment the last line in `.zshrc`
-
-```
-# pfetch
-```
-
-To install execute.
-
-```
-stow zsh2
-```
-
-![ZSH2 Preview](./src/zsh2_preview.png)
 
 ## Fedora Hyprland
 
@@ -174,18 +157,6 @@ To install theme just export the theme in hyprpanel.
 ![Hyprpanel Preview](./src/hyprpanel5.png)
 ![Hyprpanel Preview](./src/hyprpanel6.png)
 
-## Endeavour OS i3 WM
-
-i3 wm configuration for endeavour os
-
-To install execute.
-
-```
-stow i3
-```
-
-![Endeavour OS i3](./src/i3_preview.png)
-
 ## Alacritty
 
 Debian, Ubuntu based etc.
@@ -225,20 +196,11 @@ Custom theme - coolnight theme (default) - (optional)
 curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/.config/alacritty/themes/themes/coolnight.toml --output ~/.config/alacritty/themes/themes/coolnight.toml
 ```
 
-### Alacritty1
+### Alacritty
 
 To install execute.
 ```
-stow alacritty1
+stow alacritty
 ```
 
 ![Alacritty1 preview](./src/alacritty1_preview.png)
-
-### Alacritty2
-
-To install execute.
-```
-stow alacritty2
-```
-
-![Alacritty1 preview](./src/alacritty2_preview.png)
