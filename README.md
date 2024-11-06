@@ -8,9 +8,9 @@ If you don't want loose your previous configurations, then pls take backup of pr
 
 ## ⚠️ Important 
 
-Installing config files with `stow` will create symlinks of files and directory of cloned repository. So if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simple copy paste the files & directory manually.
+Installing config files with `stow` will create symlinks of files and directory of cloned repository. So if you delete the cloned repository the config files will no longer work. If you don't want to let this happen then simply copy paste the files & directory manually.
 
-## Requirement
+## Requirements
 
 Debian, Ubuntu based etc.
 
@@ -72,7 +72,7 @@ for understanding tmux keybindings you watch this [video](https://youtu.be/U-omA
 
 ## ZSH config
 
-Requirements. 
+### Requirements. 
 
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - zsh-autosuggestions
@@ -85,9 +85,7 @@ Requirements.
 
 If you are on Ubuntu download the latest version from github repository of tools.
 
-⚠️ The following zsh configurations are created for fedora (zsh1) & endeavour OS (zsh2). It can work on other distros but don't forget to change the aliases according to you distros. 
-
-### ZSH
+⚠️ The following zsh configurations are created for fedora. It can work on other distros but don't forget to change the aliases according to you distros. 
 
 To install execute.
 
