@@ -95,7 +95,7 @@ To install execute.
 stow zsh
 ```
 
-![ZSH1 Preview](./src/zsh1_preview.png)
+![ZSH Preview](./src/zsh_preview.png)
 
 ## Fedora Hyprland
 
@@ -203,4 +203,4 @@ To install execute.
 stow alacritty
 ```
 
-![Alacritty1 preview](./src/alacritty1_preview.png)
+![Alacritty preview](./src/alacritty_preview.png)
