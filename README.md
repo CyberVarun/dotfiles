@@ -136,7 +136,6 @@ Import the [config](https://github.com/CyberVarun/dotfiles/tree/main/hyprpanel) 
 ![Hyprland Preview](./src/hyprland9.png)
 ![Hyprland Preview](./src/hyprland10.png)
 ![Hyprland Preview](./src/hyprland11.png)
-![Hyprland Preview](./src/hyprland12.png)
 </details>
 
 <details>
