@@ -104,6 +104,7 @@ Requirements.
 - Hyprland 
 - Hyprpaper
 - Hyprlock
+- Hyprpanel
 - Waybar
 - Wofi
 - Wlogout
@@ -116,44 +117,47 @@ To install execute.
 stow hypr wofi waybar wlogout
 ```
 
-### Preview of Hyprland
+Hyperpanel configurations
 
-#### Hyprland
-![Hyprland Preview](./src/hyprland.png)
-![Hyprland Preview](./src/hyprland_preview_1.png)
-![Hyprland Preview](./src/hyprland_preview_2.png)
+Import the [config](https://github.com/CyberVarun/dotfiles/tree/main/hyprpanel) in Hyperpanel customizations and themeing section.
 
-#### Wofi
-![Wofi Preview](./src/wofi_preview_1.png)
-![Wofi Preview](./src/wofi_preview_2.png)
+<details>
+<summary>Hyperland with Hyperpanel Preview</summary>
 
-#### Wlogout
+![Hyprland Preview](./src/hyprland0.png)
+![Hyprland Preview](./src/hyprland1.png)
+![Hyprland Preview](./src/hyprland2.png)
+![Hyprland Preview](./src/hyprland3.png)
+![Hyprland Preview](./src/hyprland4.png)
+![Hyprland Preview](./src/hyprland5.png)
+![Hyprland Preview](./src/hyprland6.png)
+![Hyprland Preview](./src/hyprland7.png)
+![Hyprland Preview](./src/hyprland8.png)
+![Hyprland Preview](./src/hyprland9.png)
+![Hyprland Preview](./src/hyprland10.png)
+![Hyprland Preview](./src/hyprland11.png)
+![Hyprland Preview](./src/hyprland12.png)
+</details>
+
+<details>
+<summary>Wofi Preview</summary>
+
+![Wofi Preview](./src/wofi_preview1.png)
+![Wofi Preview](./src/wofi_preview2.png)
+</details>
+
+<details>
+<summary>Waybar Preview</summary>
+
+![Waybar Preview](./src/waybar.png)
+</details>
+
+<details>
+<summary>Wlogout Preview</summary>
+
 ![Wlogout Preview](./src/wlogout.png)
+</details>
 
-## [NEW] Fedora Hyprland with Hyprpanel
-
-Hyprland configuration for fedora with hyprpanel.
-
-Requirements.
-- [Hyprpanel](https://hyprpanel.com/)
-
-Bar Config
-
-```json
-{"0":{"left":["workspaces"],"middle":["clock"],"right":["volume","network","bluetooth","battery","systray","dashboard"]},"1":{"left":["workspaces"],"middle":["clock"],"right":["volume","dashboard"]},"2":{"left":["workspaces"],"middle":["clock"],"right":["volume","dashboard"]}}
-```
-
-To install theme just export the theme in hyprpanel.
-
-### Preview of Hyprpanel
-
-![Hyprpanel Preview](./src/hyprpanel0.png)
-![Hyprpanel Preview](./src/hyprpanel1.png)
-![Hyprpanel Preview](./src/hyprpanel2.png)
-![Hyprpanel Preview](./src/hyprpanel3.png)
-![Hyprpanel Preview](./src/hyprpanel4.png)
-![Hyprpanel Preview](./src/hyprpanel5.png)
-![Hyprpanel Preview](./src/hyprpanel6.png)
 
 ## Alacritty
 
