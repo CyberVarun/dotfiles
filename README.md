@@ -121,6 +121,8 @@ Hyperpanel configurations
 
 Import the [config](https://github.com/CyberVarun/dotfiles/tree/main/hyprpanel) in Hyperpanel customizations and themeing section.
 
+## Preview
+
 <details>
 <summary>Hyperland with Hyperpanel Preview</summary>
 
