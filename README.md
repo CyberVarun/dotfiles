@@ -32,6 +32,10 @@ sudo pacman -S stow -y
 
 ## Neovim config
 
+### Requirements
+- python3-pip
+- npm
+
 To install execute
 
 ```
