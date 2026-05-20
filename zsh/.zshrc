@@ -3,7 +3,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -26,20 +26,12 @@ alias kali="sudo docker exec -it -u varun -w /home/varun kali zsh"
 # BLACKARCH
 alias blackarch="sudo docker exec -it -u varun -w /home/varun blackarch zsh"
 
-# UBUNTU 22.04 LTS
-# alias ubuntu-start="sudo docker start ubuntu"
-# alias ubuntu="sudo docker exec -it -u varun -w /home/varun ubuntu zsh"
-
-# ARCH LINUX
-# alias arch-start="sudo docker start archlinux"
-# alias archlinux="sudo docker exec -it -u varun -w /home/varun archlinux fish"
-
 # ---- Eza (better ls) -----
 alias ls="eza --icons=always"
 alias lls="eza -lhg"
 
 # EXPORTS
-export PATH=$PATH:/opt/metasploit-framework/bin:~/.local/bin:~/.cargo/bin
+export PATH=$PATH:/opt/metasploit-framework/bin:~/.local/bin:~/.cargo/bin:/home/varun/bin
 # export XDG_RUNTIME_DIR=/run/user/$(id -u)
 export WORDCHARS="${WORDCHARS//\/}" # Remove / from wordchars
 export BAT_THEME="base16"
@@ -55,20 +47,12 @@ setopt hist_ignore_all_dups
 setopt hist_ignore_dups
 setopt hist_verify
 
-# bun completions
-[ -s "/home/varun/.bun/_bun" ] && source "/home/varun/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-. "/home/varun/.deno/env"
-
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-blue='\033[1;34m'
-grn='\033[1;92m'
-white='\033[1;97m'
+# blue='\033[1;34m'
+# grn='\033[1;92m'
+# white='\033[1;97m'
 
 # echo -e "
 # 		$blue┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$grn━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
